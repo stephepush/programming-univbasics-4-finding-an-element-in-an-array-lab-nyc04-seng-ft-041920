@@ -4,7 +4,7 @@ def find_element_index(array, value_to_find)
     if array[counter] === value_to_find
       array[counter]
     else
-      nil
+      0
     end
     counter +=1
   end
